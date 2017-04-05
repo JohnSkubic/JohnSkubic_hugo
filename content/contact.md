@@ -4,5 +4,4 @@ title = "contact"
 
 +++
 
-TODO: Contact
-
+Feel free to contact me via email regarding any of my active projects or if you would like to touch base on working on a new or existing project together.

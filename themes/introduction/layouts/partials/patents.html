@@ -1,0 +1,12 @@
+<div class="container"><!-- Begin Patents container -->
+<h2 class="title is-2 has-text-centered">Patents</h2>
+            <div class="column markdown">
+                {{ range .Data.Pages }}
+                    {{if eq .Title "patents" }} 
+                            {{.Content}}
+                        {{end}}
+                    {{ end }}
+            </div>
+</div><!-- End Patents container -->
+
+<div class="container has-text-centered top-pad"><a href="#top"><i class="fa fa-arrow-up"></i></a></div>

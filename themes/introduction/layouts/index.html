@@ -32,6 +32,12 @@
         {{ if .Site.Params.showprojects }}
         <a class="nav-item" href="#projects">Projects</a>  
         {{ end }}
+        {{ if .Site.Params.showPublications }}
+        <a class="nav-item" href="#publications">Publications</a>  
+        {{ end }}
+        {{ if .Site.Params.showPatents }}
+        <a class="nav-item" href="#patents">Patents</a>  
+        {{ end }}
         {{ if .Site.Params.showblog }}
         <a class="nav-item" href="#blog">Blog</a>  
         {{ end }}
@@ -79,7 +85,24 @@
     <div class="container"><hr></div>
     {{ end }} 
 
+<!-- Now for some sweet publications -->
+    {{ if .Site.Params.showpublications }}
+    <div class="section" id="publications">
+        {{ partial "publications.html" . }} 
+    </div><!-- End Publications section -->
 
+    <div class="container"><hr></div>
+    {{ end }} 
+
+<!-- Now for some awesome patents -->
+    {{ if .Site.Params.showpatents }}
+    <div class="section" id="patents">
+        {{ partial "patents.html" . }}
+    </div><!-- End Patents section -->
+
+    <div class="container"><hr></div>
+    {{ end }}
+ 
 <!-- Let's show some blog posts -->
     {{ if .Site.Params.showblog }}
     <div class="section" id="blog">

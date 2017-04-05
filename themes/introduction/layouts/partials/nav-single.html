@@ -17,6 +17,16 @@
         <a href="/#projects">Projects</a> 
       </span>
     {{ end }}
+    {{ if .Site.Params.showpublications }}
+      <span class="nav-item">
+        <a href="/#publications">Publications</a> 
+      </span>
+    {{ end }}
+    {{ if .Site.Params.showpatents }}
+      <span class="nav-item">
+        <a href="/#patents">Patents</a> 
+      </span>
+    {{ end }}
     {{ if .Site.Params.showallposts }}
       <span class="nav-item">
         <a href="/#blog">Back to blog</a> 

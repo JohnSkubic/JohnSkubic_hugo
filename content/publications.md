@@ -8,7 +8,7 @@ John Skubic, Jacob R. Stevens, Chuan Yean Tan, Dr.Mark Johnson, and Dr. Matthew 
 Paper presented at RISC-V International Conference, Chennai. (2017, April). </br>
 [Proceedings](http://rise.cse.iitm.ac.in/ric2017/index.html#Proceedings)
 
-[Purdue MicroBrewer: A Microcontroller Generator](docs/RISCV_Business_A_Configurable_Extensible_Core.pdf) </br>
+[Purdue MicroBrewer: A Microcontroller Generator](docs/MicroBrew.pdf) </br>
 Jacob R. Stevens, John Skubic, Eric Colter, Dr. Matthew Swabey, and Dr. Mark Johnson </br>
 Paper presented at RISC-V International Conference, Chennai. (2017, April). </br>
 [Proceedings](http://rise.cse.iitm.ac.in/ric2017/index.html#Proceedings)

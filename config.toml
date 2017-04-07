@@ -52,9 +52,9 @@ project1link    = "https://github.com/JakeStevens/RISCVBusiness"
 project1img     = "img/riscv-business.png"
 project1title   = "RISCV-Business"
 
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
+project2link    = "https://github.com/JohnSkubic/SV2V"
+project2img     = "img/sv2v.png"
+project2title   = "SV2V"
 
 project3link    = "#"
 project3img     = "img/project3.jpg"
